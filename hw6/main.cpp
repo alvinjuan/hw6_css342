@@ -6,9 +6,16 @@
 //
 
 #include <iostream>
+#include "search.h"
+#include "objects.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
-}
+
+int main(){
+    // keyboard(price, brand)
+    keyboard k(100, "ducky");
+    keyboard k2(120, "logitech");
+    
+    arr<keyboard> arr_k(5);
+//    arr_k.searchItem(k2);
+};
